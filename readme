@@ -1,0 +1,100 @@
+# Residential Swimming Pool, Deck, Seating Zone & Restroom/Steam Room Block
+
+A complete pre-construction planning package for a residential swimming pool project in Bengaluru, India — covering design layout, quantity takeoff, tier-wise cost estimation, and a 42-task construction schedule from mobilization to handover.
+
+This repository showcases an end-to-end civil/project-engineering workflow: reading architectural drawings, extracting real quantities, building a market-grounded cost model, and sequencing the build into a working project schedule.
+
+---
+
+## Project Scope
+
+The project covers four functional zones on a single plot (20' × 60'-0.5"):
+
+| Zone | Size | Contents |
+|---|---|---|
+| Restroom / Steam Block | 17' × 18'-5.5" (314 sqft) | Men's & Women's shower rooms, Men's & Women's restrooms, Steam room, side passages |
+| Seating Zone | 20' × 5'-7" (112 sqft) | Umbrella seating area between the restroom block and the pool deck |
+| Swimming Pool | 11'-1.5" × 33'-0.5", 5'-6" uniform depth | Sun shelf & step entry, full-length swim zone |
+| Deck / Walkway | 4'-11" wide | Runs the length of the pool, with loungers on the opposite edge and landscaping at the far end |
+
+---
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| `Pool_Design_Rendered_Layout.pdf` | Top-down illustrative rendering of the layout, drawn to scale from the floor plan and dimension drawings |
+| `Pool_Construction_Schedule.pdf` | 42-task project schedule (Mobilization → Handover), Mon–Sat working week |
+| `Pool_Costing_RateAnalysis.pdf` | Tier-wise (Normal / Modern / Premium / Luxury) rate analysis, quantity takeoff, and Bengaluru market-rate basis |
+
+---
+
+## Design & Layout
+
+Quantities were taken off directly from the floor plan and dimension drawings rather than assumed:
+
+- **Pool water surface:** 350 sqft (floor) + 486 sqft (walls, at confirmed 5'-6" depth) = **836 sqft total wetted area**
+- **Pool coping run:** ~27 running metres
+- **Pool shell concrete volume:** ~12 cum (150mm wall + floor thickness)
+- **Restroom block built-up area:** 314 sqft
+- **Deck area (net):** 368 sqft
+
+See `Pool_Design_Rendered_Layout.pdf` for the scaled visual layout.
+
+---
+
+## Project Schedule
+
+- **Start:** 25-May-2026
+- **Finish:** 07-Aug-2026
+- **Duration:** 75 calendar days
+- **Working week:** Monday–Saturday (Sunday off)
+- **42 tasks** across 7 phases:
+  1. Pre-Construction
+  2. Earthwork & Excavation
+  3. Structural Work
+  4. MEP Rough-In
+  5. Waterproofing & Plastering
+  6. Tiling & Finishing
+  7. Grouting, Testing & Handover
+
+Each task carries duration, predecessor logic, and calculated start/end dates — compatible for import into MS Project, Primavera P6, or SAP PS.
+
+---
+
+## Cost Estimation
+
+A phase-wise rate analysis was built across four finish tiers, using **Premium as the baseline specification** (branded fittings, quality tiles/coping, standard imported-grade filtration):
+
+| Tier | Multiplier vs. Premium | Grand Total (₹, incl. 5% contingency + 18% GST) |
+|---|---|---|
+| Normal | ≈ 0.50× | ₹26.3 lakh |
+| Modern | ≈ 0.75× | ₹39.5 lakh |
+| **Premium (baseline)** | 1.00× | ₹52.8 lakh |
+| Luxury | ≈ 1.75× | ₹92.3 lakh |
+
+Rates are grounded in 2026 Bengaluru market data (RCC pool construction, waterproofing, filtration/MEP, tiling & coping benchmarks) — see the `Market Basis` tab in the workbook for sourcing detail.
+
+*Figures are indicative for budgeting purposes only; obtain contractor quotes before finalizing.*
+
+---
+
+## Methodology
+
+1. **Design intake** — floor plan and dimension drawings reviewed to extract real measurements
+2. **Quantity takeoff** — areas, volumes, and running lengths calculated per work item (documented in the `Quantity Takeoff` tab)
+3. **Rate analysis** — unit rates researched and applied across four finish tiers
+4. **Scheduling** — 42-task dependency-linked schedule built on a Mon–Sat working calendar
+5. **Rendering** — scaled top-down layout produced for visual reference
+
+---
+
+## Tools Used
+
+Excel (rate analysis & scheduling), PDF drawings, SVG-based scaled rendering.
+
+---
+
+## Author
+
+**Charan GM** — Civil Engineer, Bengaluru, India
